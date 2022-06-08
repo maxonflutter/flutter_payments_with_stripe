@@ -1,0 +1,54 @@
+PODS:
+  - Flutter (1.0.0)
+  - Stripe (22.3.2):
+    - Stripe/Stripe3DS2 (= 22.3.2)
+    - StripeApplePay (= 22.3.2)
+    - StripeCore (= 22.3.2)
+    - StripeUICore (= 22.3.2)
+  - Stripe/Stripe3DS2 (22.3.2):
+    - StripeApplePay (= 22.3.2)
+    - StripeCore (= 22.3.2)
+    - StripeUICore (= 22.3.2)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 22.3.0)
+    - StripeFinancialConnections (~> 22.3.0)
+  - StripeApplePay (22.3.2):
+    - StripeCore (= 22.3.2)
+  - StripeCore (22.3.2)
+  - StripeFinancialConnections (22.3.2):
+    - StripeCore (= 22.3.2)
+    - StripeUICore (= 22.3.2)
+  - StripeUICore (22.3.2):
+    - StripeCore (= 22.3.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeFinancialConnections
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Stripe: 17d25f91e6332898ba92585cd84be1a8b5594239
+  stripe_ios: a0a5c4e07e65afc7370a5d7432af6292c68482c5
+  StripeApplePay: 90b4c66db77cb49273eb8f5d58385b5dc3923cff
+  StripeCore: 7d8cf9e15ed8c3b25782693195cbf8757c7c3c4d
+  StripeFinancialConnections: 01deacb97a300f001b5b1ecfbed548d22b6a77de
+  StripeUICore: e90f3a6d4244fbda668fbc44cb657281574a7bd8
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
